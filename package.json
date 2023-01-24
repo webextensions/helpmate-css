@@ -24,6 +24,7 @@
         ".eslintrc",
         ".eslintignore",
         ".nvmrc",
+        "copy-files-from-to.cjson",
         "rollup.config.js"
     ],
     "dependencies": {
