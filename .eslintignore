@@ -1,0 +1,13 @@
+# http://eslint.org/docs/user-guide/configuring.html#ignoring-files-and-directories
+
+# 3rdparty files
+/src/3rdparty/
+/src/3rdparty_customized/
+
+# node_modules ignored by default
+
+# Temporary files
+/temp/
+
+# Auto-generated directories and contents
+/dist/

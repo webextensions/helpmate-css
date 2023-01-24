@@ -1,0 +1,7 @@
+{
+    // Add ESLint rules here. If they are stable, useful and generic then move those as a pull request to
+    // https://github.com/webextensions/eslint-config-ironplate/
+    "rules": {
+        "filenames/no-index": "off"
+    }
+}

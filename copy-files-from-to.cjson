@@ -1,0 +1,21 @@
+{
+    "copyFilesSettings": {
+        "whenFileExists": "notify-about-available-change",
+        "addReferenceToSourceOfOrigin": true
+    },
+    "copyFiles": [
+        {
+            "from": {
+                "default": {
+                    "src": "https://raw.githubusercontent.com/prettydiff/prettydiff/v1.16.28/lib/csspretty.js",
+                    "latest": "https://raw.githubusercontent.com/prettydiff/prettydiff/master/lib/csspretty.js"
+                }
+            },
+            "to": {
+                "default": {
+                    "dest": "src/3rdparty/csspretty/csspretty.js"
+                }
+            }
+        }
+    ]
+}
