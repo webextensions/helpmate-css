@@ -1,6 +1,6 @@
 {
     "name": "helpmate-css",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A collection of various CSS related helper functions for Browser and Node.js",
     "type": "module",
     "main": "dist/index.cjs",
