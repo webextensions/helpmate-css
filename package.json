@@ -19,6 +19,7 @@
     "files": [
         "dist/",
         "src/",
+        "test/",
         ".editorconfig",
         ".eslintrc",
         ".eslintignore",
