@@ -226,7 +226,7 @@ const convertCssToObject = (cssContent) => {
 };
 
 
-const cssToScss = (cssContent) => {
+const cssToScss = (cssContent = '') => {
     _mainSCSS = '';
     _colorObj = {};
 
