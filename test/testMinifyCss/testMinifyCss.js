@@ -1,27 +1,20 @@
 import assert from 'node:assert';
 
-import { beautifyCss } from '../../src/beautifyCss/beautifyCss.js';
+import { minifyCss } from '../../src/minifyCss/minifyCss.js';
 
-const testBeautifyCss = function () {
+const testMinifyCss = function () {
     // Just a block
     {
         const cssInput = (`html    a { color:            red;font-size:10px }        `);
-        const formattedCssOutput = beautifyCss(cssInput);
-        const expectedOutput = (
-// eslint-disable-next-line indent
-`html a {
-    color: red;
-    font-size: 10px;
-}
-`
-        );
+        const formattedCssOutput = minifyCss(cssInput);
+        const expectedOutput = (`html a{color:red;font-size:10px}`);
         assert.equal(formattedCssOutput.trim(), expectedOutput.trim());
     }
 
     // Just a block
     {
         const cssInput = ('');
-        const formattedCssOutput = beautifyCss(cssInput);
+        const formattedCssOutput = minifyCss(cssInput);
         const expectedOutput = ('');
         assert.equal(formattedCssOutput.trim(), expectedOutput.trim());
     }
@@ -36,10 +29,10 @@ const testBeautifyCss = function () {
 	
 `
         );
-        const formattedCssOutput = beautifyCss(cssInput);
+        const formattedCssOutput = minifyCss(cssInput);
         const expectedOutput = ('');
         assert.equal(formattedCssOutput.trim(), expectedOutput.trim());
     }
 };
 
-export { testBeautifyCss };
+export { testMinifyCss };

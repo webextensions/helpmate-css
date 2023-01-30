@@ -1,6 +1,10 @@
 import { csspretty } from '../3rdparty_customized/csspretty_customized.js';
 
 const minifyCss = function (cssCode = '') {
+    if (cssCode.trim() === '') {
+        return '';
+    }
+
     const output = csspretty({
         mode: 'minify',
         source: cssCode
