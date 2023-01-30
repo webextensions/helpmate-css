@@ -14,7 +14,8 @@
         "start": "npm run start:build",
         "start:build": "rm -rf dist/; rollup -c",
         "test": "npm run lint && npm run mocha",
-        "test:inspect-brk": "mocha --inspect-brk"
+        "test:inspect-brk": "mocha --inspect-brk",
+        "version": "npm run start:build"
     },
     "files": [
         "dist/",
