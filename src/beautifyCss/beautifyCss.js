@@ -1,6 +1,9 @@
 import { csspretty } from '../3rdparty_customized/csspretty_customized.js';
 
 const beautifyCss = function (cssCode = '', options = {}) {
+    if (cssCode.trim() === '') {
+        return '';
+    }
     const
         useTabs = options.useTabs,
         useSpaceCount = options.useSpaceCount;
