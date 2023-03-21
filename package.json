@@ -31,7 +31,7 @@
     "dependencies": {
         "color-namer": "^1.4.0",
         "copy-files-from-to": "^3.6.0",
-        "lodash.merge": "^4.6.2"
+        "lodash": "^4.17.21"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^24.0.1",

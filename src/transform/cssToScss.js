@@ -6,9 +6,12 @@
 //     msg,
 //     colors,
 // } = require('../utils/devbug');
-import _merge from 'lodash.merge';
+
+// https://lodash.com/per-method-packages
+import _merge from 'lodash/merge.js';
+
 // const perfectionist = require('perfectionist');
-import { beautifyCss } from '../beautifyCss/beautifyCss.js';
+import { beautifyCss } from '../format/beautifyCss.js';
 import namer from 'color-namer';
 // const sass = require('node-sass');
 

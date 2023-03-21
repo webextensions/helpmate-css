@@ -49,44 +49,18 @@ console.log(scssCode);
 ```js
 // Load with "import" syntax:
 
-import { beautifyCss } from 'helpmate-css/dist/format/beautifyCss.js';
-import { csspretty } from 'helpmate-css/dist/format/csspretty.js';
-import { minifyCss } from 'helpmate-css/dist/format/minifyCss.js';
-import { format } from 'helpmate-css/dist/format/index.js';
-
-import { cssToScss } from 'helpmate-css/dist/transform/cssToScss.js';
-import { transform } from 'helpmate-css/dist/transform/index.js';
-
-import { helpmateCss } from 'helpmate-css/dist/index.js';
-import { helpmateCss } from 'helpmate-css';
+{{listOfImports}}
 
 
 // Load with "require" syntax:
 
-const { beautifyCss } = require('helpmate-css/dist/format/beautifyCss.cjs');
-const { csspretty } = require('helpmate-css/dist/format/csspretty.cjs');
-const { minifyCss } = require('helpmate-css/dist/format/minifyCss.cjs');
-const { format } = require('helpmate-css/dist/format/index.cjs');
-
-const { cssToScss } = require('helpmate-css/dist/transform/cssToScss.cjs');
-const { transform } = require('helpmate-css/dist/transform/index.cjs');
-
-const { helpmateCss } = require('helpmate-css/dist/index.cjs');
-const { helpmateCss } = require('helpmate-css');
+{{listOfRequires}}
 ```
 
 ## List of files
 
 ```
-src/format/beautifyCss.js
-src/format/csspretty.js
-src/format/minifyCss.js
-src/format/index.js
-
-src/transform/cssToScss.js
-src/transform/index.js
-
-src/index.js
+{{listOfFiles}}
 ```
 
 ## Credits

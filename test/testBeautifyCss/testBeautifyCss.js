@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 
-import { beautifyCss } from '../../src/beautifyCss/beautifyCss.js';
+import { beautifyCss } from '../../src/format/beautifyCss.js';
 
 const testBeautifyCss = function () {
     // Just a block

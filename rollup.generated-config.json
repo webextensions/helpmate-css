@@ -1,0 +1,261 @@
+[
+    {
+        "input": "src/format/beautifyCss.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/format/beautifyCss.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/format/beautifyCss.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/format/csspretty.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/format/csspretty.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/format/csspretty.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/format/minifyCss.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/format/minifyCss.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/format/minifyCss.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/format/index.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/format/index.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/format/index.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/transform/cssToScss.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/transform/cssToScss.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/transform/cssToScss.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/transform/index.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/transform/index.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/transform/index.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    },
+    {
+        "input": "src/index.js",
+        "output": [
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "cjs",
+                "file": "dist/index.cjs"
+            },
+            {
+                "exports": "named",
+                "sourcemap": true,
+                "format": "esm",
+                "file": "dist/index.js"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "node-resolve",
+                "version": "15.0.1",
+                "resolveId": {
+                    "order": "post"
+                }
+            },
+            {
+                "name": "commonjs",
+                "version": "24.0.1"
+            },
+            {
+                "name": "json"
+            },
+            {
+                "name": "terser",
+                "numOfWorkersUsed": 0
+            }
+        ]
+    }
+]

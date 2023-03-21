@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 
-import { minifyCss } from '../../src/minifyCss/minifyCss.js';
+import { minifyCss } from '../../src/format/minifyCss.js';
 
 const testMinifyCss = function () {
     // Just a block

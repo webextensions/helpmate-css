@@ -3,7 +3,7 @@ import path, { dirname } from 'node:path';
 
 import assert from 'node:assert';
 
-import { cssToScss } from '../../src/cssToScss/cssToScss.js';
+import { cssToScss } from '../../src/transform/cssToScss.js';
 
 const moduleDir = dirname(import.meta.url).replace('file://', '');
 
