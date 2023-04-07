@@ -18,7 +18,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -55,7 +55,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -92,7 +92,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -129,7 +129,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -166,7 +166,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -203,7 +203,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
@@ -240,7 +240,7 @@
         "plugins": [
             {
                 "name": "node-resolve",
-                "version": "15.0.1",
+                "version": "15.0.2",
                 "resolveId": {
                     "order": "post"
                 }
